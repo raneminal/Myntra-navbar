@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background:#fff;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 60px;
+    margin: 20px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+    margin: 0 auto;
+}
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-left ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-weight: 700;
+  font-style: normal;
+  color: rgb(63, 62, 62);
+  font-size: 13px;
+}
+.search-bar{
+    background: red;
+    width: 350px;
+    line-height: 40px;
+    border-radius: 4px;
+    background: rgb(239, 237, 237);
+}
+.search-bar input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    width: 85%;
+    font-size: 12px;
+}
+.nav-right.search-bar i{
+    font-size: 15px;
+    color: rgb(204, 199, 199);
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.studio{
+    position: relative;
+}
+.studio span{
+    position: absolute;
+    color: rgb(246, 6, 46);
+    top: -5px;
+    left: 55px;
+    font-size: 11px;
+}
+.nav-right div{
+    margin: 0 12px;
+    text-align: center;
+
+}
+.nav-right div p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #535252;
+}
+.nav-right div i{
+    font-size: 18px;
+    color: #535252;
+}
